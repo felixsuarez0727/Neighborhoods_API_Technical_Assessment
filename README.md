@@ -24,13 +24,13 @@ This project contains a Fast API application with an endpoint to obtain the resu
 
 ## Tech Stack
 
-###Front End
+### Front End
 
 **Language:** JavaScript
 **Map:** ArcGIS Map for JavaScript
 
 
-###Back End
+### Back End
 
 **Language:** Python
 **Web Framework:** FastAPI
@@ -50,7 +50,7 @@ This project contains a Fast API application with an endpoint to obtain the resu
 1. Receive a textual address `1300 SE Stark Street, Portland`
 2. Request to a Google Maps API for the coordinates.
 3. Request to Portland Maps Enpoint for the name of the neighborhood.
-4. Recursively iterates adding 100 to the address untill find a new neighborhood name. 
+4. Recursively iterates adding `100` to the address untill find a new neighborhood name. 
 5. Returns a JSON with the coordinates.
 
 
